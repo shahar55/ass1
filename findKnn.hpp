@@ -6,5 +6,5 @@
 #include <sstream>
 #include "csvReader.hpp"
 #include "unclassifiedFlower.hpp"
-std::vector<ClassifiedFlower> findKnn(unclassifiedFlower& test, std :: vector<ClassifiedFlower>& data);
+std::vector<ClassifiedFlower> findKnn(UnclassifiedFlower& test, std :: vector<ClassifiedFlower>& data);
 void swap(ClassifiedFlower& x, ClassifiedFlower& y);

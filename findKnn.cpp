@@ -5,7 +5,7 @@
 #include <sstream>
 #include "findKnn.hpp"
 using namespace std;
-std::vector<ClassifiedFlower> findKnn(unclassifiedFlower& test, std :: vector<ClassifiedFlower>& data, int k) {
+std::vector<ClassifiedFlower> findKnn(UnclassifiedFlower& test, std :: vector<ClassifiedFlower>& data, int k) {
     ClassifiedFlower near = data[0];
     std :: vector<ClassifiedFlower> knn;
     int minIdis = 99999;

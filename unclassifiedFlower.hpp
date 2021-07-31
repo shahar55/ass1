@@ -1,7 +1,7 @@
 #pragma once
 #include <string>
 #include "flower.hpp"
-class unclassifiedFlower:public Flower{
+class UnclassifiedFlower:public Flower{
     public:
-        unclassifiedFlower(int x1,int x2,int x3,int x4); // constructor
+        UnclassifiedFlower(int x1,int x2,int x3,int x4); // constructor
 };

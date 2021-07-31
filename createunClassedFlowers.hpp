@@ -5,4 +5,4 @@
 #include <sstream>
 #include "csvReader.hpp"
 #include "unclassifiedFlower.hpp"
-std::vector<unclassifiedFlower> createUnClassedFlowersFromVector (std::vector<std::vector<std::string>>& data);
+std::vector<UnclassifiedFlower> createUnClassedFlowersFromVector (std::vector<std::vector<std::string>>& data);

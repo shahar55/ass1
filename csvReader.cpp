@@ -27,5 +27,13 @@ std::vector<std::string> CSVReader::splitLine(std::string line){
     return cells;
 }
 
+void CSVReader::writeCSV(std::vector<std::string> v) {
+    std::ofstream outputFile("output.csv");
+    for (std::string s : v) {
+        outputFile<<s;
+        outputFile<<'\n';
+    }
+}
+
 CSVReader::CSVReader() {
 }

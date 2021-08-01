@@ -10,7 +10,7 @@ std::vector<ClassifiedFlower> findKnn(UnclassifiedFlower& test, std :: vector<Cl
     std :: vector<ClassifiedFlower> knn;
     int minIdis = 99999;
     if (k >= data.size()) {
-        return;
+        return knn;
     }
     for (int  i = 0; i < k; i++)
     {

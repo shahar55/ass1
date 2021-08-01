@@ -1,3 +1,4 @@
+#pragma once
 #include "classifiedFlower.hpp"
 #include <fstream>
 #include <vector>

@@ -5,7 +5,7 @@ include(CTest)
 enable_testing()
 
 add_executable(testing main.cpp flower.cpp classifiedFlower.cpp csvReader.cpp unclassifiedFlower.cpp knnGenerate.cpp
-createClassedFlowers.cpp createunClassedFlowers.cpp) 
+createClassedFlowers.cpp createunClassedFlowers.cpp findFlowerType.cpp) 
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})

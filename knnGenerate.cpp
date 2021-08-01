@@ -3,13 +3,13 @@
 #include "unclassifiedFlower.hpp"
 #include <queue>
 
-void KNNGenerate::fillDistances(std::vector<ClassifiedFlower> v,UnclassifiedFlower c) {
-    for (ClassifiedFlower cf:v) {
+void KNNGenerate::fillDistances(std::vector<ClassifiedFlower>& v,UnclassifiedFlower& c) {
+    for (ClassifiedFlower& cf:v) {
         cf.setDistance(c);
     }
 }
 
-std::vector<ClassifiedFlower> KNNGenerate::kthClosest(UnclassifiedFlower f,std::vector<ClassifiedFlower> v,int k) {
+std::vector<ClassifiedFlower> KNNGenerate::kthClosest(UnclassifiedFlower& f,std::vector<ClassifiedFlower>& v,int k) {
     fillDistances(v,f);
     std::priority_queue<int, std::vector<ClassifiedFlower>,std::greater<ClassifiedFlower>> pq(v.begin(), v.end());
     std::vector<ClassifiedFlower> kth;
@@ -20,7 +20,5 @@ std::vector<ClassifiedFlower> KNNGenerate::kthClosest(UnclassifiedFlower f,std::
     }
     return kth;
 }
-
-
 
 

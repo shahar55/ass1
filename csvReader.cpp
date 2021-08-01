@@ -28,7 +28,7 @@ std::vector<std::string> CSVReader::splitLine(std::string line){
 }
 
 void CSVReader::writeCSV(std::vector<std::string> v) {
-    std::ofstream outputFile("output.csv");
+    std::ofstream outputFile("../resources/output.csv");
     for (std::string s : v) {
         outputFile<<s;
         outputFile<<'\n';

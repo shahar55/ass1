@@ -1,12 +1,12 @@
 #pragma once
 class Flower{
     protected:
-        int cupLeafWidth;
-        int cupLeafLength;
-        int petalWidth;
-        int petalLength;
+        double cupLeafWidth;
+        double cupLeafLength;
+        double petalWidth;
+        double petalLength;
     
     public:
-        Flower(int cupLeafWidth,int cupLeafLength,int petalWidth,int petalLength);
+        Flower(double cupLeafWidth,double cupLeafLength,double petalWidth,double petalLength);
         double getEuclideanDistance(const Flower& f);
 };

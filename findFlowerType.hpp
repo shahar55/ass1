@@ -1,3 +1,4 @@
+#pragma once
 #include "classifiedFlower.hpp"
 #include <fstream>
 #include <vector>
@@ -6,4 +7,4 @@
 #include <sstream>
 #include "csvReader.hpp"
 #include "unclassifiedFlower.hpp"
-std::string findFlowerName(UnclassifiedFlower test, std :: vector<ClassifiedFlower> data);
+std::string findFlowerName(std :: vector<ClassifiedFlower> data);

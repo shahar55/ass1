@@ -8,5 +8,5 @@ double Flower::getEuclideanDistance(const Flower& f) {
     return sqrt(cupLeafWidthPow+cupLeafLengthPow+petalWidthPow+petalLengthPow);
 }
 
-Flower::Flower(int cupLeafWidth,int cupLeafLength,int petalWidth,int petalLength):
+Flower::Flower(double cupLeafWidth,double cupLeafLength,double petalWidth,double petalLength):
 cupLeafLength(cupLeafLength),cupLeafWidth(cupLeafWidth),petalLength(petalLength),petalWidth(petalWidth){}

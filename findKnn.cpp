@@ -24,7 +24,7 @@ std::vector<ClassifiedFlower> findKnn(UnclassifiedFlower& test, std :: vector<Cl
                 minLindx = j;
             }
         }
-        swap(data[i], near);
+        swap(data[i], data[minIdis]);
         knn.push_back(data[i]);
         minIdis = 99999;
     }

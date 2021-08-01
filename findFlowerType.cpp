@@ -25,11 +25,11 @@ string findFlowerName(UnclassifiedFlower test, std :: vector<ClassifiedFlower> d
             dataString.push_back(data[i].getName());
             arr.push_back(1);
         }
-        
+        flag = false;
     }
     int max = 0;
     int iMax = 0;
-    for (int i = 0; arr.size(); i++){
+    for (int i = 0; i < arr.size(); i++){
         if (arr[i] >= max) {
             max = arr[i];
             iMax = i;

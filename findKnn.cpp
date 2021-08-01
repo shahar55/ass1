@@ -7,6 +7,7 @@
 using namespace std;
 std::vector<ClassifiedFlower> findKnn(UnclassifiedFlower& test, std :: vector<ClassifiedFlower>& data, int k) {
     ClassifiedFlower near = data[0];
+    int minLindx = 0;
     std :: vector<ClassifiedFlower> knn;
     int minIdis = 99999;
     if (k >= data.size()) {
@@ -15,10 +16,12 @@ std::vector<ClassifiedFlower> findKnn(UnclassifiedFlower& test, std :: vector<Cl
     for (int  i = 0; i < k; i++)
     {
         near = data[i];
-        for (int j = i; i < data.size(); j++) {
+        minLindx = i;
+        for (int j = i; j < data.size(); j++) {
             if (data[j].getEuclideanDistance(test) <= minIdis) {
                 minIdis = data[j].getEuclideanDistance(test);
                 near = data[j];
+                minLindx = j;
             }
         }
         swap(data[i], near);

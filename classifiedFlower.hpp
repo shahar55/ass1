@@ -12,12 +12,7 @@ class ClassifiedFlower:public Flower{
     std::string name;
     double distance;
     public:
-    /* 
-    * class UnclassifiedFlower.
-    *
-    *  Created on: 9/08/2021
-    *      Authors: shahar abitbol, ido barkai.
-    */
+    
         // constructor.
         ClassifiedFlower(double cupLeafWidth,double cupLeafLength,double petalWidth,double petalLength, char const* type);
         

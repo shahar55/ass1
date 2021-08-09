@@ -17,11 +17,11 @@ In Order to run our classifier, you will need to have two csv files:
  - *Unclassified.csv* - a dataset which contains the unclassified irises 4 values.
 
 ## General Instructions
-You can find all the required files at `Develop branch`.
+You can find all the required files under `Develop branch`.
 There are 2 ways running the project:
 1. CMake
 2. g++ compiler
-
-```ruby
-gcc compile
-```
+    ```ruby
+    g++ main.cpp flower.cpp classifiedFlower.cpp unclassifiedFlower.cpp knnGenerate.cpp findFlowerType.cpp CSVHandler.cpp dataHandler.cpp
+    ./a.out
+    ```

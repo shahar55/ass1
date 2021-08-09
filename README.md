@@ -1,6 +1,6 @@
 # AP1 - Ex1
 ## First assignment in Advanced Programming 1
-![uml](https://user-images.githubusercontent.com/76645845/128697955-63860283-4e9f-4852-80e8-767b47bcf9de.png)
+![uml](http://www.plantuml.com/plantuml/png/fLF1Qjmm4BtxAyGMWhR9_a099h1jMkZYIqbwLgInLrIMZ3Hk3ct_lMCvQzcM6mevBNupyzxJpDkxWC9ZtvhYthXdyBU_3mScZGX1rnhK2CvhlSsgHKJORbtOiL_5mOeMs0SMq6lR50UbIT3A0LAkVp9GNBFZQewFbPlD7taMdabd0xxV4ybwbkWQm8f4-NwI9J00VdoHvW_P4ww6tfzEA-fq7NY1pfSygaI5hFV9EHEb4ki-FUdFj9BZjySlmYhpienQ6wYM2mcTqNZI5lY8H2SWoS3j29IaasYYJFgacWUX2E3pnIIE9TN0zUmrmZ2mB4qRIEQLG97SqsW2ee_vDrKbEK68wxhiAjnxrpv67SQt7Lr5bfdZzRxBYVh1lfayFtt9XXThY-1h8O7jKdRVoRuxWQY_QuNdwReJV0BRBF0EK1Xgpi5rw_Kow6pxT_1zINK3-AcNHYiGTehS6D0Kopn_NwlgCzWXq11F-0FFH-C21Dpw5zpyymPKqXPVlnA5sroi1VuAquRoHlhwh2k-81l-dotcGoHq1rRrhVaB)
 
 ## What is KNN Clasifier
 In statistics, the k-nearest neighbors algorithm (k-NN) is a non-parametric classification method first developed by Evelyn Fix and Joseph Hodges in 1951, and later expanded by Thomas Cover. It is used for classification and regression. In both cases, the input consists of the k closest training examples in data set. The output depends on whether k-NN is used for classification or regression:

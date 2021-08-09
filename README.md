@@ -10,7 +10,7 @@ This assignment was created during the course *"Advanced Programming 1"* at Bar-
 ![ass1UML](https://user-images.githubusercontent.com/84286628/128748450-8dc6c3c3-e27c-4e55-97c1-d9eabba910d1.png)
 
 ## Requirements
-In Order to run our classifier, you will need to have two csv files:
+In Order to run our classifier, you will need to have two csv files under "resources" folder:
 
  - *classified.csv* - data set which contains 3 kinds of irises (versicolor, virginica, setosa), for every iris you will need to assign four properties (width, sepal length, sepal width, petal length). this dataset is being use to classify other irises, therefore this dataset will contain all irises with their known type.
 
@@ -19,8 +19,8 @@ In Order to run our classifier, you will need to have two csv files:
 ## General Instructions
 You can find all the required files under `Develop branch`.
 There are 2 ways running the project:
-1. CMake
-2. g++ compiler
+1. **`CMakeLists.txt`** file - which we provided to you and exsists under Develop branch
+2. **`g++ compiler`** using this command line:
     ```ruby
     g++ main.cpp flower.cpp classifiedFlower.cpp unclassifiedFlower.cpp knnGenerate.cpp findFlowerType.cpp CSVHandler.cpp dataHandler.cpp
     ./a.out

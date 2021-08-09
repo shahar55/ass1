@@ -29,9 +29,10 @@ std::vector<std::string> CSVHandler::splitLine(std::string line){
 
 void CSVHandler::writeCSV(std::vector<std::string> stringFlowerData) {
     std::ofstream outputFile("../resources/output.csv");
-    for (std::string s : stringFlowerData) {
+    for (std::string& s : stringFlowerData) {
         outputFile<<s;
-        outputFile<<'\n';
+        if (&s != &stringFlowerData.back())
+            outputFile<<'\n';
     }
 }
 

@@ -9,7 +9,7 @@ class CSVReader {
     public:
         CSVReader();
         std::vector<std::vector<std::string>> readCSV(char const* fileName);
-        void writeCSV(std::vector<std::string> v);
+        void writeCSV(std::vector<std::string> stringFlowerData);
 
 
 };

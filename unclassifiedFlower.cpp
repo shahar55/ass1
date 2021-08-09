@@ -1,2 +1,3 @@
 #include "unclassifiedFlower.hpp"
-UnclassifiedFlower::UnclassifiedFlower(int x1,int x2,int x3,int x4):Flower(x1,x2,x3,x4){}
+UnclassifiedFlower::UnclassifiedFlower(int cupLeafWidth,int cupLeafLength,int petalWidth,int petalLength)
+:Flower(cupLeafWidth, cupLeafLength, petalWidth, petalLength){}

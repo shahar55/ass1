@@ -1,3 +1,9 @@
+/* 
+ * class ClassifiedFlower.
+ *
+ *  Created on: 9/08/2021
+ *      Authors: shahar abitbol, ido barkai.
+ */
 #pragma once
 #include <string>
 #include "flower.hpp"
@@ -6,9 +12,22 @@ class ClassifiedFlower:public Flower{
     std::string name;
     double distance;
     public:
+    /* 
+    * class UnclassifiedFlower.
+    *
+    *  Created on: 9/08/2021
+    *      Authors: shahar abitbol, ido barkai.
+    */
+        // constructor.
         ClassifiedFlower(double cupLeafWidth,double cupLeafLength,double petalWidth,double petalLength, char const* type);
+        
+        // get name
         std::string getName() const;
+        
+        // set distance between this flower and unamed flower.
         void setDistance(UnclassifiedFlower& unNamedFlower);
+        // operator ">".
         bool operator> (const ClassifiedFlower& namedFlower) const;
+        // get distance.
         double getDistance();
 };

@@ -1,3 +1,9 @@
+/* 
+ * main.cpp
+ *
+ *  Created on: 9/08/2021
+ *      Authors: shahar abitbol, ido barkai.
+ */
 #include <iostream>
 #include <cmath>
 #include <vector>
@@ -9,6 +15,11 @@
 #include "dataHandler.hpp"
 #include "knnGenerate.hpp"
 #include "findFlowerType.hpp"
+/**
+ * main, read CSV files,
+ * according to files data create classed and unclassed flowers,
+ * write to a file types of flowers according to knn algorithem.  
+ */
 int main(){
     CSVHandler c;
     dataHandler d;

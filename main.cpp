@@ -2,13 +2,13 @@
 #include <cmath>
 #include "flower.hpp"
 #include "classifiedFlower.hpp"
-#include "csvReader.hpp"
+#include "CSVHandler.hpp"
 #include "createunClassedFlowers.hpp"
 #include "createClassedFlowers.hpp"
 #include "knnGenerate.hpp"
 #include "findFlowerType.hpp"
 int main(){
-    CSVReader c;
+    CSVHandler c;
     std::vector<std::vector<std::string>> s1 = c.readCSV("../resources/classified.csv");
     std::vector<std::vector<std::string>> s2 = c.readCSV("../resources/Unclassified.csv");
     std::vector<ClassifiedFlower> c1 =  createClassedFlowersFromVector (s1);

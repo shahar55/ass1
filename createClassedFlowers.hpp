@@ -4,6 +4,5 @@
 #include <string>
 #include <iostream>
 #include <sstream>
-#include "csvReader.hpp"
 #include "classifiedFlower.hpp"
-std::vector<ClassifiedFlower> createClassedFlowersFromVector (std::vector<std::vector<std::string>>& data);
+std::vector<const ClassifiedFlower> createClassedFlowersFromVector (std::vector<std::vector<std::string>>& data);

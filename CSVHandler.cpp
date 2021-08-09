@@ -1,4 +1,4 @@
-#include "csvReader.hpp"
+#include "CSVHandler.hpp"
 #include <fstream>
 #include <vector>
 #include <string>
@@ -28,7 +28,7 @@ std::vector<std::string> CSVReader::splitLine(std::string line){
 }
 
 void CSVReader::writeCSV(std::vector<std::string> stringFlowerData) {
-    std::ofstream outputFile("../resources/output.csv");
+    std::ofstream outputFile("output.csv");
     for (std::string s : stringFlowerData) {
         outputFile<<s;
         outputFile<<'\n';

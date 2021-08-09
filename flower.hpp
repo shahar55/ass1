@@ -8,5 +8,5 @@ class Flower{
     
     public:
         Flower(double cupLeafWidth,double cupLeafLength,double petalWidth,double petalLength);
-        double getEuclideanDistance(const Flower& f);
+        double getEuclideanDistance(const Flower& other);
 };

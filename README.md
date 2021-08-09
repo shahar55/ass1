@@ -28,4 +28,4 @@ There are 2 ways running the project:
     ./a.out
     ```
     **note!** if you perfer to run the program in this way you need to change the path of the files (either to read and either to write) to be with only one dot!
-    Example : ```ruby../resources/classified.csv```
+    Example : **```../resources/classified.csv```**

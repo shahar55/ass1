@@ -20,8 +20,10 @@ In Order to run our classifier, you will need to have two csv files under "resou
 You can find all the required files under `Develop branch`.
 There are 2 ways running the project:
 1. **`CMakeLists.txt`** file - which we provided to you and exsists under Develop branch
-2. **`g++ compiler`** using this command line:
+2. **`g++ compiler`** using these 2 command lines:
     ```ruby
     g++ main.cpp flower.cpp classifiedFlower.cpp unclassifiedFlower.cpp knnGenerate.cpp findFlowerType.cpp CSVHandler.cpp dataHandler.cpp
+    ```
+    ```ruby
     ./a.out
     ```

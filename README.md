@@ -2,10 +2,13 @@
 ## First assignment in Advanced Programming 1
 ![ass1UML](https://user-images.githubusercontent.com/84286628/128748450-8dc6c3c3-e27c-4e55-97c1-d9eabba910d1.png)
 
-## What is KNN Clasifier
-In statistics, the k-nearest neighbors algorithm (k-NN) is a non-parametric classification method first developed by Evelyn Fix and Joseph Hodges in 1951, and later expanded by Thomas Cover. It is used for classification and regression. In both cases, the input consists of the k closest training examples in data set. The output depends on whether k-NN is used for classification or regression:
+## Overview
+This assignment was created during the course "Advanced Programming 1" at Bar-Ilan University and implements ["KNN algorithm"][1]:
+[1]:https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm "KNN algorithm"
 
-In k-NN classification, the output is a class membership. An object is classified by a plurality vote of its neighbors, with the object being assigned to the class most common among its k nearest neighbors (k is a positive integer, typically small). If k = 1, then the object is simply assigned to the class of that single nearest neighbor.
+>K Nearest Neighbor algorithm falls under the Supervised Learning category and is used for classification (most commonly) and regression. It is a versatile algorithm also used for imputing missing values and resampling datasets. As the name (K Nearest Neighbor) suggests it considers K Nearest Neighbors (Data points) to predict the class or continuous value for the new Datapoint.
+
+
 
 
 ## How To Run The Classifier

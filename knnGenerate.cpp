@@ -11,7 +11,7 @@ void KNNGenerate::fillDistances(std::vector<ClassifiedFlower>& v,UnclassifiedFlo
 
 std::vector<ClassifiedFlower> KNNGenerate::kthClosest(UnclassifiedFlower& f,std::vector<ClassifiedFlower>& v,int k) {
     fillDistances(v,f);
-    std::priority_queue<int, std::vector<ClassifiedFlower>,std::greater<ClassifiedFlower>> pq(v.begin(), v.end());
+    std::priority_queue<ClassifiedFlower, std::vector<ClassifiedFlower>,std::greater<ClassifiedFlower>> pq(v.begin(), v.end());
     std::vector<ClassifiedFlower> kth;
     // do for remaining array elements
     while (--k+1) {
@@ -20,5 +20,3 @@ std::vector<ClassifiedFlower> KNNGenerate::kthClosest(UnclassifiedFlower& f,std:
     }
     return kth;
 }
-
-

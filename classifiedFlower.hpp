@@ -7,7 +7,7 @@ class ClassifiedFlower:public Flower{
     int distance;
     public:
         ClassifiedFlower(int cupLeafWidth,int cupLeafLength,int petalWidth,int petalLength, char const* type);
-        std::string getName();
-        void setDistance(UnclassifiedFlower& unNamedFlower);
+        std::string getName() const;
+        const void setDistance(UnclassifiedFlower& unNamedFlower);
         bool operator> (const ClassifiedFlower& namedFlower) const;
 };

@@ -5,6 +5,6 @@
 
 class KNNGenerate{
     public:
-        std::vector<ClassifiedFlower> kthClosest(UnclassifiedFlower unNamedFlower,std::vector<ClassifiedFlower> flowers,int k);
-        void fillDistances(std::vector<ClassifiedFlower> flowers,UnclassifiedFlower unNamedFlower);
+        const std::vector<const ClassifiedFlower> kthClosest(UnclassifiedFlower unNamedFlower,std::vector<const ClassifiedFlower> flowers,int k);
+        const void fillDistances(std::vector<const ClassifiedFlower> flowers,UnclassifiedFlower unNamedFlower);
 };

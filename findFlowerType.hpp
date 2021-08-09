@@ -4,6 +4,5 @@
 #include <string>
 #include <iostream>
 #include <sstream>
-#include "csvReader.hpp"
 #include "unclassifiedFlower.hpp"
-std::string findFlowerName(UnclassifiedFlower test, std :: vector<ClassifiedFlower> data);
+const std::string findFlowerName(const UnclassifiedFlower test, std :: vector<const ClassifiedFlower> data);

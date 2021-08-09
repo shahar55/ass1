@@ -4,11 +4,11 @@ ClassifiedFlower::ClassifiedFlower(int cupLeafWidth,int cupLeafLength,int petalW
 Flower(cupLeafWidth, cupLeafLength, petalWidth, petalLength){
     name = type;
 }
-std::string ClassifiedFlower::getName(){
+std::string ClassifiedFlower::getName() const{
     return name;
 }
 
-void ClassifiedFlower::setDistance(UnclassifiedFlower& unNamedFlower) {
+const void ClassifiedFlower::setDistance(UnclassifiedFlower& unNamedFlower) {
     distance = unNamedFlower.getEuclideanDistance(*this);
 }
 

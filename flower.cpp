@@ -1,6 +1,6 @@
 #include "flower.hpp"
 #include <cmath>
-double Flower::getEuclideanDistance(const Flower& other) {
+double Flower::getEuclideanDistance(const Flower& other) const{
     double cupLeafLengthPow = pow(cupLeafLength-other.cupLeafLength,2);
     double cupLeafWidthPow = pow(cupLeafWidth-other.cupLeafWidth,2);
     double petalLengthPow = pow(petalLength-other.petalLength,2);

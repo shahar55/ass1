@@ -3,8 +3,7 @@
 ![ass1UML](https://user-images.githubusercontent.com/84286628/128748450-8dc6c3c3-e27c-4e55-97c1-d9eabba910d1.png)
 
 ## Overview
-This assignment was created during the course "Advanced Programming 1" at Bar-Ilan University and implements ["KNN algorithm"][1]:
-[1]:https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm "KNN algorithm"
+This assignment was created during the course *"Advanced Programming 1"* at Bar-Ilan University and implements ["KNN algorithm"](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm):
 
 >K Nearest Neighbor algorithm falls under the Supervised Learning category and is used for classification (most commonly) and regression. It is a versatile algorithm also used for imputing missing values and resampling datasets. As the name (K Nearest Neighbor) suggests it considers K Nearest Neighbors (Data points) to predict the class or continuous value for the new Datapoint.
 

@@ -1,6 +1,6 @@
 # Advanced Programming 1 - Ex1
 ## First assignment in Advanced Programming 1
-![uml](![ass1UML](https://user-images.githubusercontent.com/84286628/128748450-8dc6c3c3-e27c-4e55-97c1-d9eabba910d1.png)
+![ass1UML](https://user-images.githubusercontent.com/84286628/128748450-8dc6c3c3-e27c-4e55-97c1-d9eabba910d1.png)
 
 ## What is KNN Clasifier
 In statistics, the k-nearest neighbors algorithm (k-NN) is a non-parametric classification method first developed by Evelyn Fix and Joseph Hodges in 1951, and later expanded by Thomas Cover. It is used for classification and regression. In both cases, the input consists of the k closest training examples in data set. The output depends on whether k-NN is used for classification or regression:
@@ -18,12 +18,9 @@ In Order to run our classifier, you will need to have two csv files
 
 Clone the git using
 
-git clone https://github.com/idanturkenits/AP1-ex1
 
 now you can cd to the file and run it (if you run it using Cmake it will work fine, otherwise you will need to create a new folder, cd to it, and run the program from there)
 
-'''ruby
+```ruby
 gcc compile
-'''
-
-Have Fun Classifying!
+```

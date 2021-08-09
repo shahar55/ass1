@@ -8,7 +8,7 @@
 #include <iterator>
 #include <map>
 using namespace std;
-const string findFlowerName(std :: vector<const ClassifiedFlower> data) {
+const string findFlowerName(std :: vector<ClassifiedFlower> data) {
     vector<string>  dataString; // vector of the flowers types (names).
     vector<int> arr; // vector of the num flowers call this name.
     bool flag = false;

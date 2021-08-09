@@ -5,4 +5,4 @@
 #include <iostream>
 #include <sstream>
 #include "classifiedFlower.hpp"
-std::vector<const ClassifiedFlower> createClassedFlowersFromVector (std::vector<std::vector<std::string>>& data);
+std::vector<ClassifiedFlower> createClassedFlowersFromVector (std::vector<std::vector<std::string>>& data);

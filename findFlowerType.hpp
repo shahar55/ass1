@@ -6,4 +6,4 @@
 #include <iostream>
 #include <sstream>
 #include "unclassifiedFlower.hpp"
-const std::string findFlowerName(std :: vector<const ClassifiedFlower> data);
+const std::string findFlowerName(std :: vector<ClassifiedFlower> data);

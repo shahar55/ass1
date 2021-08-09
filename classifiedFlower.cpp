@@ -8,7 +8,7 @@ std::string ClassifiedFlower::getName() const{
     return name;
 }
 
-const void ClassifiedFlower::setDistance(UnclassifiedFlower& unNamedFlower) {
+void ClassifiedFlower::setDistance(UnclassifiedFlower& unNamedFlower) {
     distance = unNamedFlower.getEuclideanDistance(*this);
 }
 
